@@ -1,0 +1,70 @@
+.header__logo {
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: contain;    /*This helps the logo to stay in the position even after changes in other fields*/     
+}
+
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;  /*More is the z-index, more prioritised is the element on the page*/
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none; /*To remove the underline from the hyperlinked text w/o removing the links*/
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__optionLineOne {
+    font-size: 12px;
+}
+
+.header__optionLineTwo {
+    font-size: 15px;
+    font-weight:700;
+}
+
+.header__searchIcon {
+    background-color: #cd9042;
+    padding: 5px;
+    height: 22px !important; /*!important was added to override the default setting of the icon set by Material-UI*/
+}
+
+.header__search {
+    display: flex;
+    flex: 1; /*Flex:1 allows the component to take up the maximum space available for it*/
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__OptionCart {
+    display: flex;
+    align-items: center;
+}
+
+.header__CartCount {
+    margin: 0 10px;
+}
