@@ -18,7 +18,7 @@ function Header() {
   return (
     <nav className="header">
       <Link to="/">
-        <img className='header__logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+        <img className='header__logo' src='./kmlogo.png' />
       </Link>
 
       {/* Search Box */}
@@ -39,14 +39,14 @@ function Header() {
         <Link to="/" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
-            <span className="header__optionLineTwo">Yours Orders</span>
+            <span className="header__optionLineTwo">Your Orders</span>
           </div>
         </Link>
 
         <Link to="/" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Your</span>
-            <span className="header__optionLineTwo">Prime</span>
+            <span className="header__optionLineTwo">Profile</span>
           </div>
         </Link>
 

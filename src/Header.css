@@ -1,8 +1,8 @@
 .header__logo {
-    width: 100px;
-    margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 180px;
+    /* margin-top: 5px; */
+    margin-left: 5px;
+    /* margin-right: 10px; */
     cursor: pointer;
     object-fit: contain;    /*This helps the logo to stay in the position even after changes in other fields*/     
 }
@@ -43,7 +43,7 @@
 }
 
 .header__searchIcon {
-    background-color: #cd9042;
+    background-color: #c5ed0f;
     padding: 5px;
     height: 22px !important; /*!important was added to override the default setting of the icon set by Material-UI*/
 }
