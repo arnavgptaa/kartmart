@@ -8,9 +8,9 @@
 }
 
 .login__logo {
-    width: 100px;
+    width: 250px;
     object-fit: contain;
-    margin: 17px 0;
+    margin: 12px 0;
 }
 
 .login__container {
@@ -40,7 +40,7 @@
 }
 
 .login__container form button, .registerButton {
-    background: #f0c14b;
+    background: #ED7A08;
     border:1px solid;
     margin-top: 10px;
     border-color:#a88734 #9c7e31 #846a29;

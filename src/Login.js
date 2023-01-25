@@ -38,7 +38,7 @@ function Login() {
       <Link to="/">
         <img 
           className='login__logo' 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          src="./kmlogow.png"
           alt=""
          />
         
@@ -60,10 +60,10 @@ function Login() {
         </p>
         
         <p className='login__disclaimer'>
-        By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.
+        By continuing, you agree to KartMart's Conditions of Use and Privacy Notice.
         </p>
 
-        <button onClick={register} className='registerButton'>Create your Amazon Account</button>
+        <button onClick={register} className='registerButton'>Create your KartMart Account</button>
 
       </div>
 

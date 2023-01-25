@@ -43,7 +43,7 @@
 }
 
 .header__searchIcon {
-    background-color: #c5ed0f;
+    background-color: #ED7A08;
     padding: 5px;
     height: 22px !important; /*!important was added to override the default setting of the icon set by Material-UI*/
 }
