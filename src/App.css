@@ -3,3 +3,14 @@
   font-family: "Amazon Ember Display Medium";
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+  /* Responsive styles for small screens */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Responsive styles for medium screens */
+}
+
+@media (min-width: 1024px) {
+  /* Responsive styles for large screens */
+}

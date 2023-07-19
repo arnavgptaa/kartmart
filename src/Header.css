@@ -42,23 +42,33 @@
     font-weight:700;
 }
 
-.header__searchIcon {
-    background-color: #ED7A08;
-    padding: 5px;
-    height: 22px !important; /*!important was added to override the default setting of the icon set by Material-UI*/
-}
-
 .header__search {
     display: flex;
-    flex: 1; /*Flex:1 allows the component to take up the maximum space available for it*/
+    flex: 1; Flex:1 allows the component to take up the maximum space available for it
+    
 }
 
 .header__searchInput {
+    position: relative;
+    width: 100%;
     height: 12px;
     padding: 10px;
     border: none;
-    width: 100%;
-}
+    border-radius: 50px;
+  }
+  
+  .header__searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #ED7A08;
+    padding: 5px;
+    height: 22px !important;
+    border-radius: 50px;
+    margin-right: 271px;
+  }
+  
 
 .header__OptionCart {
     display: flex;
